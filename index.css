@@ -18,7 +18,7 @@ body {
 
 .page {
     position: relative;
-    margin-left: 100px;
+    margin-left: 200px;
     background: #fff;
     min-height: 100%;
 }
@@ -28,6 +28,7 @@ body {
     color: #e0e0e0;
     font-weight: bold;
     font-size: 14px;
+    line-height: 14px;
 
     top: 20px;
     left: 30px;
@@ -36,7 +37,7 @@ body {
 .title {
     position: absolute;
 
-    top: 50px;
+    top: 64px;
     left: 0px;
     border-left: 5px solid #E87600;
     padding-left: 25px;
@@ -49,26 +50,42 @@ body {
     position: absolute;
     list-style: none;
 
-    top: 100px;
+    top: 111px;
     left: 0px;
 }
 
 .items li {
     position: relative;
-    padding-left: 30px;
+    padding-left: 60px;
 
-    color: #808080;
+    color: #444;
     font-size: 20px;
     line-height: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
 }
 
 .items li::before {
     content: ' ';
     position: absolute;
-    left: 0px;
-    bottom: 3px;
-    height: 1px;
-    width: 25px;
-    background: #fafafa;
+    left: 40px;
+    top: 20px;
+    bottom: -12px;
+    width: 1px;
+    background: #e0e0e0;
+}
+
+.items li:last-child::before {
+    visibility: hidden;
+}
+
+.items li::after {
+    content: ' ';
+    position: absolute;
+    left: 30px;
+    top: 10px;
+    margin-top: -10px;
+    box-sizing: border-box;
+    height: 21px;
+    width: 21px;
+    border: 1px solid #888;
 }
