@@ -18,12 +18,33 @@ body {
 
 .page {
     position: relative;
+    box-sizing: border-box;
     margin: auto;
-    width: 480px;
+    width: 720px;
     border-right: 240px #fafafa solid;
     background: #fff;
     min-height: 100%;
     padding-top: 50px;
+}
+
+.page::before {
+    content: ' ';
+    position: absolute;
+    left: -1px;
+    top: 0px;
+    bottom: 0px;
+    width: 1px;
+    background: #f4f4f4;
+}
+
+.page::after {
+    content: ' ';
+    position: absolute;
+    right: -1px;
+    top: 0px;
+    bottom: 0px;
+    width: 1px;
+    background: #f4f4f4;
 }
 
 .logo {
