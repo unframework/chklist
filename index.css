@@ -18,7 +18,9 @@ body {
 
 .page {
     position: relative;
-    margin-left: 200px;
+    margin: auto;
+    width: 480px;
+    border-right: 240px #fafafa solid;
     background: #fff;
     min-height: 100%;
     padding-top: 66px;
@@ -40,7 +42,7 @@ body {
     padding-left: 15px;
     padding-top: 8px;
     padding-bottom: 8px;
-    width: 300px;
+    padding-right: 30px;
 
     font-weight: bold;
     font-size: 18px;
@@ -57,7 +59,7 @@ body {
 .items li {
     position: relative;
     padding-left: 64px;
-    width: 300px;
+    padding-right: 30px;
 
     color: #444;
     font-size: 16px;
