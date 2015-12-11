@@ -46,8 +46,28 @@ body {
     padding-bottom: 16px;
 
     text-align: right;
-    font-style: italic;
     line-height: 16px;
+    color: #888;
+}
+
+.attribution .author {
+    font-style: italic;
+    color: #d0d0d0;
+}
+
+.attribution .author em {
+    font-style: normal;
+    color: #888;
+}
+
+.attribution .date {
+    font-size: 10px;
+    color: #d0d0d0;
+}
+
+.attribution .date b {
+    font-weight: normal;
+    color: #888;
 }
 
 .title {
