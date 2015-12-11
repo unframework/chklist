@@ -28,13 +28,21 @@ body {
 
 .logo {
     position: absolute;
-    color: #d0d0d0;
-    font-weight: bold;
-    font-size: 14px;
     line-height: 14px;
 
     top: 20px;
     left: 30px;
+}
+
+.logo a {
+    color: #d0d0d0;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.logo a:hover {
+    text-decoration: underline;
 }
 
 .attribution {
