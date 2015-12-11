@@ -37,6 +37,19 @@ body {
     left: 30px;
 }
 
+.attribution {
+    float: right;
+    margin-right: -240px;
+    width: 200px;
+
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+    text-align: right;
+    font-style: italic;
+    line-height: 16px;
+}
+
 .title {
     border-left: 15px solid #f3f315;
     padding-left: 15px;
